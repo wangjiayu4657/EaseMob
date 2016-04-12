@@ -1,0 +1,1024 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6021101CB790C40048C60B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA60210F1CB790C40048C60B /* main.m */; };
+		FA6021131CB790C40048C60B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6021121CB790C40048C60B /* AppDelegate.m */; };
+		FA6021191CB790C40048C60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6021171CB790C40048C60B /* Main.storyboard */; };
+		FA60211B1CB790C40048C60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA60211A1CB790C40048C60B /* Assets.xcassets */; };
+		FA60211E1CB790C40048C60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA60211C1CB790C40048C60B /* LaunchScreen.storyboard */; };
+		FA6021291CB790C50048C60B /* RingLetterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6021281CB790C50048C60B /* RingLetterTests.m */; };
+		FA6021341CB790C50048C60B /* RingLetterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6021331CB790C50048C60B /* RingLetterUITests.m */; };
+		FA6021B41CB7918A0048C60B /* libEaseMobClientSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6021B11CB7918A0048C60B /* libEaseMobClientSDK.a */; };
+		FA6021B51CB7918A0048C60B /* EaseMob.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA6021B31CB7918A0048C60B /* EaseMob.bundle */; };
+		FA6021B71CB792190048C60B /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6021B61CB792190048C60B /* libresolv.tbd */; };
+		FA6021B91CB792300048C60B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6021B81CB792300048C60B /* libz.tbd */; };
+		FA6021BB1CB7923A0048C60B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6021BA1CB7923A0048C60B /* libiconv.tbd */; };
+		FA6021BD1CB792440048C60B /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6021BC1CB792440048C60B /* libxml2.tbd */; };
+		FA6021BF1CB7924D0048C60B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6021BE1CB7924D0048C60B /* libsqlite3.tbd */; };
+		FA6021C31CB7926E0048C60B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6021C21CB7926E0048C60B /* libstdc++.6.0.9.tbd */; };
+		FA6021C61CB793390048C60B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6021C51CB793390048C60B /* Login.storyboard */; };
+		FA6021C91CB793D90048C60B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6021C81CB793D90048C60B /* LoginViewController.m */; };
+		FA6021CC1CB796CD0048C60B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6021CB1CB796CD0048C60B /* CFNetwork.framework */; };
+		FA6021CE1CB796E00048C60B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6021CD1CB796E00048C60B /* MobileCoreServices.framework */; };
+		FA8E3E3E1CBB9DE600B4C30C /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8E3E3D1CBB9DE600B4C30C /* ConversationViewController.m */; };
+		FA8E3E431CBBB14400B4C30C /* AddbuddyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8E3E421CBBB14400B4C30C /* AddbuddyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA6021251CB790C50048C60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6021031CB790C40048C60B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA60210A1CB790C40048C60B;
+			remoteInfo = RingLetter;
+		};
+		FA6021301CB790C50048C60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6021031CB790C40048C60B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA60210A1CB790C40048C60B;
+			remoteInfo = RingLetter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA60210B1CB790C40048C60B /* RingLetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingLetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA60210F1CB790C40048C60B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA6021111CB790C40048C60B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA6021121CB790C40048C60B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA6021181CB790C40048C60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA60211A1CB790C40048C60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA60211D1CB790C40048C60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA60211F1CB790C40048C60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6021241CB790C50048C60B /* RingLetterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingLetterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6021281CB790C50048C60B /* RingLetterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingLetterTests.m; sourceTree = "<group>"; };
+		FA60212A1CB790C50048C60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA60212F1CB790C50048C60B /* RingLetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingLetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6021331CB790C50048C60B /* RingLetterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingLetterUITests.m; sourceTree = "<group>"; };
+		FA6021351CB790C50048C60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA60214E1CB7918A0048C60B /* EMCallManagerCallDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallManagerCallDelegate.h; sourceTree = "<group>"; };
+		FA60214F1CB7918A0048C60B /* EMCallManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallManagerDelegate.h; sourceTree = "<group>"; };
+		FA6021501CB7918A0048C60B /* EaseMob+CallService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EaseMob+CallService.h"; sourceTree = "<group>"; };
+		FA6021511CB7918A0048C60B /* EMCallServiceDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallServiceDefs.h; sourceTree = "<group>"; };
+		FA6021521CB7918A0048C60B /* ICallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICallManager.h; sourceTree = "<group>"; };
+		FA6021541CB7918A0048C60B /* ICallManagerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICallManagerBase.h; sourceTree = "<group>"; };
+		FA6021551CB7918A0048C60B /* ICallManagerCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICallManagerCall.h; sourceTree = "<group>"; };
+		FA6021571CB7918A0048C60B /* EMCallSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallSession.h; sourceTree = "<group>"; };
+		FA6021581CB7918A0048C60B /* IOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOpenGLView.h; sourceTree = "<group>"; };
+		FA6021591CB7918A0048C60B /* OpenGLView20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView20.h; sourceTree = "<group>"; };
+		FA60215D1CB7918A0048C60B /* IChatManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerDelegate.h; sourceTree = "<group>"; };
+		FA60215F1CB7918A0048C60B /* EMChatManagerBuddyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerBuddyDelegate.h; sourceTree = "<group>"; };
+		FA6021601CB7918A0048C60B /* EMChatManagerChatDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerChatDelegate.h; sourceTree = "<group>"; };
+		FA6021611CB7918A0048C60B /* EMChatManagerChatroomDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerChatroomDelegate.h; sourceTree = "<group>"; };
+		FA6021621CB7918A0048C60B /* EMChatManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerDelegate.h; sourceTree = "<group>"; };
+		FA6021631CB7918A0048C60B /* EMChatManagerDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerDelegateBase.h; sourceTree = "<group>"; };
+		FA6021641CB7918A0048C60B /* EMChatManagerEncryptionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerEncryptionDelegate.h; sourceTree = "<group>"; };
+		FA6021651CB7918A0048C60B /* EMChatManagerGroupDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerGroupDelegate.h; sourceTree = "<group>"; };
+		FA6021661CB7918A0048C60B /* EMChatManagerLoginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerLoginDelegate.h; sourceTree = "<group>"; };
+		FA6021671CB7918A0048C60B /* EMChatManagerPushNotificationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerPushNotificationDelegate.h; sourceTree = "<group>"; };
+		FA6021681CB7918A0048C60B /* EMChatManagerUtilDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerUtilDelegate.h; sourceTree = "<group>"; };
+		FA6021691CB7918A0048C60B /* EMChatManagerDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerDefs.h; sourceTree = "<group>"; };
+		FA60216A1CB7918A0048C60B /* EMGroupManagerDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGroupManagerDefs.h; sourceTree = "<group>"; };
+		FA60216B1CB7918A0048C60B /* EMPushManagerDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPushManagerDefs.h; sourceTree = "<group>"; };
+		FA60216C1CB7918A0048C60B /* IChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManager.h; sourceTree = "<group>"; };
+		FA60216E1CB7918A0048C60B /* IChatManagerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerBase.h; sourceTree = "<group>"; };
+		FA60216F1CB7918A0048C60B /* IChatManagerBuddy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerBuddy.h; sourceTree = "<group>"; };
+		FA6021701CB7918A0048C60B /* IChatManagerChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerChat.h; sourceTree = "<group>"; };
+		FA6021711CB7918A0048C60B /* IChatManagerChatroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerChatroom.h; sourceTree = "<group>"; };
+		FA6021721CB7918A0048C60B /* IChatManagerConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerConversation.h; sourceTree = "<group>"; };
+		FA6021731CB7918A0048C60B /* IChatManagerEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerEncryption.h; sourceTree = "<group>"; };
+		FA6021741CB7918A0048C60B /* IChatManagerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerGroup.h; sourceTree = "<group>"; };
+		FA6021751CB7918A0048C60B /* IChatManagerLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerLogin.h; sourceTree = "<group>"; };
+		FA6021761CB7918A0048C60B /* IChatManagerPushNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerPushNotification.h; sourceTree = "<group>"; };
+		FA6021771CB7918A0048C60B /* IChatManagerRobot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerRobot.h; sourceTree = "<group>"; };
+		FA6021781CB7918A0048C60B /* IChatManagerSettingOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerSettingOptions.h; sourceTree = "<group>"; };
+		FA6021791CB7918A0048C60B /* IChatManagerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerUtil.h; sourceTree = "<group>"; };
+		FA60217B1CB7918A0048C60B /* EMBuddy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMBuddy.h; sourceTree = "<group>"; };
+		FA60217C1CB7918A0048C60B /* EMChatCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatCommand.h; sourceTree = "<group>"; };
+		FA60217D1CB7918A0048C60B /* EMChatFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatFile.h; sourceTree = "<group>"; };
+		FA60217E1CB7918A0048C60B /* EMChatImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatImage.h; sourceTree = "<group>"; };
+		FA60217F1CB7918A0048C60B /* EMChatLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatLocation.h; sourceTree = "<group>"; };
+		FA6021801CB7918A0048C60B /* EMChatroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatroom.h; sourceTree = "<group>"; };
+		FA6021811CB7918A0048C60B /* EMChatText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatText.h; sourceTree = "<group>"; };
+		FA6021821CB7918A0048C60B /* EMChatVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatVideo.h; sourceTree = "<group>"; };
+		FA6021831CB7918A0048C60B /* EMChatVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatVoice.h; sourceTree = "<group>"; };
+		FA6021841CB7918A0048C60B /* EMCommandMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCommandMessageBody.h; sourceTree = "<group>"; };
+		FA6021851CB7918A0048C60B /* EMConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConversation.h; sourceTree = "<group>"; };
+		FA6021861CB7918A0048C60B /* EMCursorResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCursorResult.h; sourceTree = "<group>"; };
+		FA6021871CB7918A0048C60B /* EMFileMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMFileMessageBody.h; sourceTree = "<group>"; };
+		FA6021881CB7918A0048C60B /* EMGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGroup.h; sourceTree = "<group>"; };
+		FA6021891CB7918A0048C60B /* EMGroupStyleSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGroupStyleSetting.h; sourceTree = "<group>"; };
+		FA60218A1CB7918A0048C60B /* EMImageMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMImageMessageBody.h; sourceTree = "<group>"; };
+		FA60218B1CB7918A0048C60B /* EMLocationMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMLocationMessageBody.h; sourceTree = "<group>"; };
+		FA60218C1CB7918A0048C60B /* EMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMessage.h; sourceTree = "<group>"; };
+		FA60218D1CB7918A0048C60B /* EMPushNotificationOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPushNotificationOptions.h; sourceTree = "<group>"; };
+		FA60218E1CB7918A0048C60B /* EMReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMReceipt.h; sourceTree = "<group>"; };
+		FA60218F1CB7918A0048C60B /* EMReceiptBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMReceiptBase.h; sourceTree = "<group>"; };
+		FA6021901CB7918A0048C60B /* EMRobot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRobot.h; sourceTree = "<group>"; };
+		FA6021911CB7918A0048C60B /* EMTextMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMTextMessageBody.h; sourceTree = "<group>"; };
+		FA6021921CB7918A0048C60B /* EMVideoMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVideoMessageBody.h; sourceTree = "<group>"; };
+		FA6021931CB7918A0048C60B /* EMVoiceMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVoiceMessageBody.h; sourceTree = "<group>"; };
+		FA6021941CB7918A0048C60B /* IChatImageOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatImageOptions.h; sourceTree = "<group>"; };
+		FA6021951CB7918A0048C60B /* IEMChatCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMChatCryptor.h; sourceTree = "<group>"; };
+		FA6021961CB7918A0048C60B /* IEMChatFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMChatFile.h; sourceTree = "<group>"; };
+		FA6021971CB7918A0048C60B /* IEMChatObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMChatObject.h; sourceTree = "<group>"; };
+		FA6021981CB7918A0048C60B /* IEMChatProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMChatProgressDelegate.h; sourceTree = "<group>"; };
+		FA6021991CB7918A0048C60B /* IEMFileMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMFileMessageBody.h; sourceTree = "<group>"; };
+		FA60219A1CB7918A0048C60B /* IEMMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMMessageBody.h; sourceTree = "<group>"; };
+		FA60219C1CB7918A0048C60B /* EaseMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseMob.h; sourceTree = "<group>"; };
+		FA60219D1CB7918A0048C60B /* EaseMobHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseMobHeaders.h; sourceTree = "<group>"; };
+		FA6021A01CB7918A0048C60B /* commonDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commonDefs.h; sourceTree = "<group>"; };
+		FA6021A31CB7918A0048C60B /* IDeviceManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDeviceManagerDelegate.h; sourceTree = "<group>"; };
+		FA6021A51CB7918A0048C60B /* EMDeviceManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDeviceManagerDelegate.h; sourceTree = "<group>"; };
+		FA6021A61CB7918A0048C60B /* EMDeviceManagerDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDeviceManagerDelegateBase.h; sourceTree = "<group>"; };
+		FA6021A71CB7918A0048C60B /* EMDeviceManagerNetworkDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDeviceManagerNetworkDelegate.h; sourceTree = "<group>"; };
+		FA6021A81CB7918A0048C60B /* EMDeviceManagerDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDeviceManagerDefs.h; sourceTree = "<group>"; };
+		FA6021A91CB7918A0048C60B /* IDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDeviceManager.h; sourceTree = "<group>"; };
+		FA6021AB1CB7918A0048C60B /* IDeviceManagerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDeviceManagerBase.h; sourceTree = "<group>"; };
+		FA6021AC1CB7918A0048C60B /* EMNetworkMonitorDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMNetworkMonitorDefs.h; sourceTree = "<group>"; };
+		FA6021AE1CB7918A0048C60B /* EMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMError.h; sourceTree = "<group>"; };
+		FA6021AF1CB7918A0048C60B /* EMErrorDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMErrorDefs.h; sourceTree = "<group>"; };
+		FA6021B11CB7918A0048C60B /* libEaseMobClientSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEaseMobClientSDK.a; sourceTree = "<group>"; };
+		FA6021B31CB7918A0048C60B /* EaseMob.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EaseMob.bundle; sourceTree = "<group>"; };
+		FA6021B61CB792190048C60B /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		FA6021B81CB792300048C60B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FA6021BA1CB7923A0048C60B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		FA6021BC1CB792440048C60B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		FA6021BE1CB7924D0048C60B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FA6021C01CB7925E0048C60B /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		FA6021C21CB7926E0048C60B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		FA6021C51CB793390048C60B /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		FA6021C71CB793D90048C60B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FA6021C81CB793D90048C60B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FA6021CA1CB794690048C60B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FA6021CB1CB796CD0048C60B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FA6021CD1CB796E00048C60B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FA8E3E3C1CBB9DE600B4C30C /* ConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationViewController.h; sourceTree = "<group>"; };
+		FA8E3E3D1CBB9DE600B4C30C /* ConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationViewController.m; sourceTree = "<group>"; };
+		FA8E3E411CBBB14400B4C30C /* AddbuddyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddbuddyViewController.h; sourceTree = "<group>"; };
+		FA8E3E421CBBB14400B4C30C /* AddbuddyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddbuddyViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6021081CB790C40048C60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6021CE1CB796E00048C60B /* MobileCoreServices.framework in Frameworks */,
+				FA6021CC1CB796CD0048C60B /* CFNetwork.framework in Frameworks */,
+				FA6021C31CB7926E0048C60B /* libstdc++.6.0.9.tbd in Frameworks */,
+				FA6021BF1CB7924D0048C60B /* libsqlite3.tbd in Frameworks */,
+				FA6021BD1CB792440048C60B /* libxml2.tbd in Frameworks */,
+				FA6021BB1CB7923A0048C60B /* libiconv.tbd in Frameworks */,
+				FA6021B91CB792300048C60B /* libz.tbd in Frameworks */,
+				FA6021B71CB792190048C60B /* libresolv.tbd in Frameworks */,
+				FA6021B41CB7918A0048C60B /* libEaseMobClientSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6021211CB790C50048C60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA60212C1CB790C50048C60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6021021CB790C40048C60B = {
+			isa = PBXGroup;
+			children = (
+				FA6021C41CB792E30048C60B /* Dependences */,
+				FA60210D1CB790C40048C60B /* RingLetter */,
+				FA6021271CB790C50048C60B /* RingLetterTests */,
+				FA6021321CB790C50048C60B /* RingLetterUITests */,
+				FA60210C1CB790C40048C60B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA60210C1CB790C40048C60B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA60210B1CB790C40048C60B /* RingLetter.app */,
+				FA6021241CB790C50048C60B /* RingLetterTests.xctest */,
+				FA60212F1CB790C50048C60B /* RingLetterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA60210D1CB790C40048C60B /* RingLetter */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021411CB790EA0048C60B /* Classes */,
+				FA60211A1CB790C40048C60B /* Assets.xcassets */,
+				FA60211F1CB790C40048C60B /* Info.plist */,
+				FA60210E1CB790C40048C60B /* Supporting Files */,
+			);
+			path = RingLetter;
+			sourceTree = "<group>";
+		};
+		FA60210E1CB790C40048C60B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA60210F1CB790C40048C60B /* main.m */,
+				FA6021CA1CB794690048C60B /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA6021271CB790C50048C60B /* RingLetterTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021281CB790C50048C60B /* RingLetterTests.m */,
+				FA60212A1CB790C50048C60B /* Info.plist */,
+			);
+			path = RingLetterTests;
+			sourceTree = "<group>";
+		};
+		FA6021321CB790C50048C60B /* RingLetterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021331CB790C50048C60B /* RingLetterUITests.m */,
+				FA6021351CB790C50048C60B /* Info.plist */,
+			);
+			path = RingLetterUITests;
+			sourceTree = "<group>";
+		};
+		FA6021411CB790EA0048C60B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA8E3E3F1CBBB0E000B4C30C /* AddressBook */,
+				FA6021461CB7913C0048C60B /* Conversation[会话] */,
+				FA6021451CB791340048C60B /* Xib */,
+				FA6021441CB791290048C60B /* Others */,
+				FA6021431CB7911F0048C60B /* Login */,
+				FA6021421CB791130048C60B /* Lib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FA6021421CB791130048C60B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021491CB7918A0048C60B /* EaseMobSDK */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		FA6021431CB7911F0048C60B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021C71CB793D90048C60B /* LoginViewController.h */,
+				FA6021C81CB793D90048C60B /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		FA6021441CB791290048C60B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021111CB790C40048C60B /* AppDelegate.h */,
+				FA6021121CB790C40048C60B /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		FA6021451CB791340048C60B /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021171CB790C40048C60B /* Main.storyboard */,
+				FA60211C1CB790C40048C60B /* LaunchScreen.storyboard */,
+				FA6021C51CB793390048C60B /* Login.storyboard */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		FA6021461CB7913C0048C60B /* Conversation[会话] */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021471CB791580048C60B /* Controllers */,
+			);
+			name = "Conversation[会话]";
+			sourceTree = "<group>";
+		};
+		FA6021471CB791580048C60B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA8E3E3C1CBB9DE600B4C30C /* ConversationViewController.h */,
+				FA8E3E3D1CBB9DE600B4C30C /* ConversationViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FA6021491CB7918A0048C60B /* EaseMobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FA60214A1CB7918A0048C60B /* include */,
+				FA6021B01CB7918A0048C60B /* lib */,
+				FA6021B21CB7918A0048C60B /* resources */,
+			);
+			path = EaseMobSDK;
+			sourceTree = "<group>";
+		};
+		FA60214A1CB7918A0048C60B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FA60214B1CB7918A0048C60B /* CallService */,
+				FA60215A1CB7918A0048C60B /* ChatService */,
+				FA60219B1CB7918A0048C60B /* EaseMobClientSDK */,
+				FA60219E1CB7918A0048C60B /* EaseMobClientSDKLite */,
+				FA60219F1CB7918A0048C60B /* Utility */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FA60214B1CB7918A0048C60B /* CallService */ = {
+			isa = PBXGroup;
+			children = (
+				FA60214C1CB7918A0048C60B /* EMCallManager */,
+			);
+			path = CallService;
+			sourceTree = "<group>";
+		};
+		FA60214C1CB7918A0048C60B /* EMCallManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA60214D1CB7918A0048C60B /* delegates */,
+				FA6021501CB7918A0048C60B /* EaseMob+CallService.h */,
+				FA6021511CB7918A0048C60B /* EMCallServiceDefs.h */,
+				FA6021521CB7918A0048C60B /* ICallManager.h */,
+				FA6021531CB7918A0048C60B /* internal */,
+				FA6021561CB7918A0048C60B /* types */,
+			);
+			path = EMCallManager;
+			sourceTree = "<group>";
+		};
+		FA60214D1CB7918A0048C60B /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FA60214E1CB7918A0048C60B /* EMCallManagerCallDelegate.h */,
+				FA60214F1CB7918A0048C60B /* EMCallManagerDelegate.h */,
+			);
+			path = delegates;
+			sourceTree = "<group>";
+		};
+		FA6021531CB7918A0048C60B /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021541CB7918A0048C60B /* ICallManagerBase.h */,
+				FA6021551CB7918A0048C60B /* ICallManagerCall.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		FA6021561CB7918A0048C60B /* types */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021571CB7918A0048C60B /* EMCallSession.h */,
+				FA6021581CB7918A0048C60B /* IOpenGLView.h */,
+				FA6021591CB7918A0048C60B /* OpenGLView20.h */,
+			);
+			path = types;
+			sourceTree = "<group>";
+		};
+		FA60215A1CB7918A0048C60B /* ChatService */ = {
+			isa = PBXGroup;
+			children = (
+				FA60215B1CB7918A0048C60B /* EMChatManager */,
+			);
+			path = ChatService;
+			sourceTree = "<group>";
+		};
+		FA60215B1CB7918A0048C60B /* EMChatManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA60215C1CB7918A0048C60B /* delegates */,
+				FA6021691CB7918A0048C60B /* EMChatManagerDefs.h */,
+				FA60216A1CB7918A0048C60B /* EMGroupManagerDefs.h */,
+				FA60216B1CB7918A0048C60B /* EMPushManagerDefs.h */,
+				FA60216C1CB7918A0048C60B /* IChatManager.h */,
+				FA60216D1CB7918A0048C60B /* internal */,
+				FA60217A1CB7918A0048C60B /* types */,
+			);
+			path = EMChatManager;
+			sourceTree = "<group>";
+		};
+		FA60215C1CB7918A0048C60B /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FA60215D1CB7918A0048C60B /* IChatManagerDelegate.h */,
+				FA60215E1CB7918A0048C60B /* internal */,
+			);
+			path = delegates;
+			sourceTree = "<group>";
+		};
+		FA60215E1CB7918A0048C60B /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				FA60215F1CB7918A0048C60B /* EMChatManagerBuddyDelegate.h */,
+				FA6021601CB7918A0048C60B /* EMChatManagerChatDelegate.h */,
+				FA6021611CB7918A0048C60B /* EMChatManagerChatroomDelegate.h */,
+				FA6021621CB7918A0048C60B /* EMChatManagerDelegate.h */,
+				FA6021631CB7918A0048C60B /* EMChatManagerDelegateBase.h */,
+				FA6021641CB7918A0048C60B /* EMChatManagerEncryptionDelegate.h */,
+				FA6021651CB7918A0048C60B /* EMChatManagerGroupDelegate.h */,
+				FA6021661CB7918A0048C60B /* EMChatManagerLoginDelegate.h */,
+				FA6021671CB7918A0048C60B /* EMChatManagerPushNotificationDelegate.h */,
+				FA6021681CB7918A0048C60B /* EMChatManagerUtilDelegate.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		FA60216D1CB7918A0048C60B /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				FA60216E1CB7918A0048C60B /* IChatManagerBase.h */,
+				FA60216F1CB7918A0048C60B /* IChatManagerBuddy.h */,
+				FA6021701CB7918A0048C60B /* IChatManagerChat.h */,
+				FA6021711CB7918A0048C60B /* IChatManagerChatroom.h */,
+				FA6021721CB7918A0048C60B /* IChatManagerConversation.h */,
+				FA6021731CB7918A0048C60B /* IChatManagerEncryption.h */,
+				FA6021741CB7918A0048C60B /* IChatManagerGroup.h */,
+				FA6021751CB7918A0048C60B /* IChatManagerLogin.h */,
+				FA6021761CB7918A0048C60B /* IChatManagerPushNotification.h */,
+				FA6021771CB7918A0048C60B /* IChatManagerRobot.h */,
+				FA6021781CB7918A0048C60B /* IChatManagerSettingOptions.h */,
+				FA6021791CB7918A0048C60B /* IChatManagerUtil.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		FA60217A1CB7918A0048C60B /* types */ = {
+			isa = PBXGroup;
+			children = (
+				FA60217B1CB7918A0048C60B /* EMBuddy.h */,
+				FA60217C1CB7918A0048C60B /* EMChatCommand.h */,
+				FA60217D1CB7918A0048C60B /* EMChatFile.h */,
+				FA60217E1CB7918A0048C60B /* EMChatImage.h */,
+				FA60217F1CB7918A0048C60B /* EMChatLocation.h */,
+				FA6021801CB7918A0048C60B /* EMChatroom.h */,
+				FA6021811CB7918A0048C60B /* EMChatText.h */,
+				FA6021821CB7918A0048C60B /* EMChatVideo.h */,
+				FA6021831CB7918A0048C60B /* EMChatVoice.h */,
+				FA6021841CB7918A0048C60B /* EMCommandMessageBody.h */,
+				FA6021851CB7918A0048C60B /* EMConversation.h */,
+				FA6021861CB7918A0048C60B /* EMCursorResult.h */,
+				FA6021871CB7918A0048C60B /* EMFileMessageBody.h */,
+				FA6021881CB7918A0048C60B /* EMGroup.h */,
+				FA6021891CB7918A0048C60B /* EMGroupStyleSetting.h */,
+				FA60218A1CB7918A0048C60B /* EMImageMessageBody.h */,
+				FA60218B1CB7918A0048C60B /* EMLocationMessageBody.h */,
+				FA60218C1CB7918A0048C60B /* EMMessage.h */,
+				FA60218D1CB7918A0048C60B /* EMPushNotificationOptions.h */,
+				FA60218E1CB7918A0048C60B /* EMReceipt.h */,
+				FA60218F1CB7918A0048C60B /* EMReceiptBase.h */,
+				FA6021901CB7918A0048C60B /* EMRobot.h */,
+				FA6021911CB7918A0048C60B /* EMTextMessageBody.h */,
+				FA6021921CB7918A0048C60B /* EMVideoMessageBody.h */,
+				FA6021931CB7918A0048C60B /* EMVoiceMessageBody.h */,
+				FA6021941CB7918A0048C60B /* IChatImageOptions.h */,
+				FA6021951CB7918A0048C60B /* IEMChatCryptor.h */,
+				FA6021961CB7918A0048C60B /* IEMChatFile.h */,
+				FA6021971CB7918A0048C60B /* IEMChatObject.h */,
+				FA6021981CB7918A0048C60B /* IEMChatProgressDelegate.h */,
+				FA6021991CB7918A0048C60B /* IEMFileMessageBody.h */,
+				FA60219A1CB7918A0048C60B /* IEMMessageBody.h */,
+			);
+			path = types;
+			sourceTree = "<group>";
+		};
+		FA60219B1CB7918A0048C60B /* EaseMobClientSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FA60219C1CB7918A0048C60B /* EaseMob.h */,
+				FA60219D1CB7918A0048C60B /* EaseMobHeaders.h */,
+			);
+			path = EaseMobClientSDK;
+			sourceTree = "<group>";
+		};
+		FA60219E1CB7918A0048C60B /* EaseMobClientSDKLite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EaseMobClientSDKLite;
+			sourceTree = "<group>";
+		};
+		FA60219F1CB7918A0048C60B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021A01CB7918A0048C60B /* commonDefs.h */,
+				FA6021A11CB7918A0048C60B /* EMDeviceManager */,
+				FA6021AC1CB7918A0048C60B /* EMNetworkMonitorDefs.h */,
+				FA6021AD1CB7918A0048C60B /* ErrorManager */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FA6021A11CB7918A0048C60B /* EMDeviceManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021A21CB7918A0048C60B /* delegates */,
+				FA6021A81CB7918A0048C60B /* EMDeviceManagerDefs.h */,
+				FA6021A91CB7918A0048C60B /* IDeviceManager.h */,
+				FA6021AA1CB7918A0048C60B /* internal */,
+			);
+			path = EMDeviceManager;
+			sourceTree = "<group>";
+		};
+		FA6021A21CB7918A0048C60B /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021A31CB7918A0048C60B /* IDeviceManagerDelegate.h */,
+				FA6021A41CB7918A0048C60B /* internal */,
+			);
+			path = delegates;
+			sourceTree = "<group>";
+		};
+		FA6021A41CB7918A0048C60B /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021A51CB7918A0048C60B /* EMDeviceManagerDelegate.h */,
+				FA6021A61CB7918A0048C60B /* EMDeviceManagerDelegateBase.h */,
+				FA6021A71CB7918A0048C60B /* EMDeviceManagerNetworkDelegate.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		FA6021AA1CB7918A0048C60B /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021AB1CB7918A0048C60B /* IDeviceManagerBase.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		FA6021AD1CB7918A0048C60B /* ErrorManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021AE1CB7918A0048C60B /* EMError.h */,
+				FA6021AF1CB7918A0048C60B /* EMErrorDefs.h */,
+			);
+			path = ErrorManager;
+			sourceTree = "<group>";
+		};
+		FA6021B01CB7918A0048C60B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021B11CB7918A0048C60B /* libEaseMobClientSDK.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FA6021B21CB7918A0048C60B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021B31CB7918A0048C60B /* EaseMob.bundle */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		FA6021C41CB792E30048C60B /* Dependences */ = {
+			isa = PBXGroup;
+			children = (
+				FA6021CD1CB796E00048C60B /* MobileCoreServices.framework */,
+				FA6021CB1CB796CD0048C60B /* CFNetwork.framework */,
+				FA6021C21CB7926E0048C60B /* libstdc++.6.0.9.tbd */,
+				FA6021C01CB7925E0048C60B /* libstdc++.tbd */,
+				FA6021BE1CB7924D0048C60B /* libsqlite3.tbd */,
+				FA6021BC1CB792440048C60B /* libxml2.tbd */,
+				FA6021BA1CB7923A0048C60B /* libiconv.tbd */,
+				FA6021B81CB792300048C60B /* libz.tbd */,
+				FA6021B61CB792190048C60B /* libresolv.tbd */,
+			);
+			name = Dependences;
+			sourceTree = "<group>";
+		};
+		FA8E3E3F1CBBB0E000B4C30C /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				FA8E3E401CBBB10700B4C30C /* Controllers */,
+			);
+			name = AddressBook;
+			sourceTree = "<group>";
+		};
+		FA8E3E401CBBB10700B4C30C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA8E3E411CBBB14400B4C30C /* AddbuddyViewController.h */,
+				FA8E3E421CBBB14400B4C30C /* AddbuddyViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA60210A1CB790C40048C60B /* RingLetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6021381CB790C50048C60B /* Build configuration list for PBXNativeTarget "RingLetter" */;
+			buildPhases = (
+				FA6021071CB790C40048C60B /* Sources */,
+				FA6021081CB790C40048C60B /* Frameworks */,
+				FA6021091CB790C40048C60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RingLetter;
+			productName = RingLetter;
+			productReference = FA60210B1CB790C40048C60B /* RingLetter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA6021231CB790C50048C60B /* RingLetterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA60213B1CB790C50048C60B /* Build configuration list for PBXNativeTarget "RingLetterTests" */;
+			buildPhases = (
+				FA6021201CB790C50048C60B /* Sources */,
+				FA6021211CB790C50048C60B /* Frameworks */,
+				FA6021221CB790C50048C60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6021261CB790C50048C60B /* PBXTargetDependency */,
+			);
+			name = RingLetterTests;
+			productName = RingLetterTests;
+			productReference = FA6021241CB790C50048C60B /* RingLetterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA60212E1CB790C50048C60B /* RingLetterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA60213E1CB790C50048C60B /* Build configuration list for PBXNativeTarget "RingLetterUITests" */;
+			buildPhases = (
+				FA60212B1CB790C50048C60B /* Sources */,
+				FA60212C1CB790C50048C60B /* Frameworks */,
+				FA60212D1CB790C50048C60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6021311CB790C50048C60B /* PBXTargetDependency */,
+			);
+			name = RingLetterUITests;
+			productName = RingLetterUITests;
+			productReference = FA60212F1CB790C50048C60B /* RingLetterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA6021031CB790C40048C60B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = fangjs;
+				TargetAttributes = {
+					FA60210A1CB790C40048C60B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FA6021231CB790C50048C60B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FA60210A1CB790C40048C60B;
+					};
+					FA60212E1CB790C50048C60B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FA60210A1CB790C40048C60B;
+					};
+				};
+			};
+			buildConfigurationList = FA6021061CB790C40048C60B /* Build configuration list for PBXProject "RingLetter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA6021021CB790C40048C60B;
+			productRefGroup = FA60210C1CB790C40048C60B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA60210A1CB790C40048C60B /* RingLetter */,
+				FA6021231CB790C50048C60B /* RingLetterTests */,
+				FA60212E1CB790C50048C60B /* RingLetterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6021091CB790C40048C60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA60211E1CB790C40048C60B /* LaunchScreen.storyboard in Resources */,
+				FA60211B1CB790C40048C60B /* Assets.xcassets in Resources */,
+				FA6021B51CB7918A0048C60B /* EaseMob.bundle in Resources */,
+				FA6021C61CB793390048C60B /* Login.storyboard in Resources */,
+				FA6021191CB790C40048C60B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6021221CB790C50048C60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA60212D1CB790C50048C60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6021071CB790C40048C60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8E3E431CBBB14400B4C30C /* AddbuddyViewController.m in Sources */,
+				FA6021131CB790C40048C60B /* AppDelegate.m in Sources */,
+				FA8E3E3E1CBB9DE600B4C30C /* ConversationViewController.m in Sources */,
+				FA6021101CB790C40048C60B /* main.m in Sources */,
+				FA6021C91CB793D90048C60B /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6021201CB790C50048C60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6021291CB790C50048C60B /* RingLetterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA60212B1CB790C50048C60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6021341CB790C50048C60B /* RingLetterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA6021261CB790C50048C60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA60210A1CB790C40048C60B /* RingLetter */;
+			targetProxy = FA6021251CB790C50048C60B /* PBXContainerItemProxy */;
+		};
+		FA6021311CB790C50048C60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA60210A1CB790C40048C60B /* RingLetter */;
+			targetProxy = FA6021301CB790C50048C60B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA6021171CB790C40048C60B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6021181CB790C40048C60B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA60211C1CB790C40048C60B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA60211D1CB790C40048C60B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA6021361CB790C50048C60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA6021371CB790C50048C60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA6021391CB790C50048C60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RingLetter/PrefixHeader.pch";
+				INFOPLIST_FILE = RingLetter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RingLetter/EaseMobSDK/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiju.fangjs.RingLetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA60213A1CB790C50048C60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RingLetter/PrefixHeader.pch";
+				INFOPLIST_FILE = RingLetter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RingLetter/EaseMobSDK/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiju.fangjs.RingLetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA60213C1CB790C50048C60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RingLetterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiju.fangjs.RingLetterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingLetter.app/RingLetter";
+			};
+			name = Debug;
+		};
+		FA60213D1CB790C50048C60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RingLetterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiju.fangjs.RingLetterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingLetter.app/RingLetter";
+			};
+			name = Release;
+		};
+		FA60213F1CB790C50048C60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RingLetterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiju.fangjs.RingLetterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RingLetter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA6021401CB790C50048C60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RingLetterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiju.fangjs.RingLetterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RingLetter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6021061CB790C40048C60B /* Build configuration list for PBXProject "RingLetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6021361CB790C50048C60B /* Debug */,
+				FA6021371CB790C50048C60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6021381CB790C50048C60B /* Build configuration list for PBXNativeTarget "RingLetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6021391CB790C50048C60B /* Debug */,
+				FA60213A1CB790C50048C60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA60213B1CB790C50048C60B /* Build configuration list for PBXNativeTarget "RingLetterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA60213C1CB790C50048C60B /* Debug */,
+				FA60213D1CB790C50048C60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA60213E1CB790C50048C60B /* Build configuration list for PBXNativeTarget "RingLetterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA60213F1CB790C50048C60B /* Debug */,
+				FA6021401CB790C50048C60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA6021031CB790C40048C60B /* Project object */;
+}
